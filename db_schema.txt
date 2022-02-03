@@ -1,0 +1,91 @@
+Programmes (SA)
+    - id
+    - programme_name
+    - programme_description
+    - programme_min_credits
+    - active
+    - created_at
+    - updated_at
+
+Modules (SA)
+    - id
+    - module_name
+    - module_description
+    - module_certified
+    - module_certification_by (fk certifier_id)
+    - module_credits 
+    - active
+    - created_at
+    - updated_at
+
+Modules_programmes (SA)
+    - id
+    - programme_id
+    - module_id
+    - active
+    - created_at
+    - updated_at
+
+Certifiers (SA)
+    - id
+    - certifier_name
+    - active
+    - created_at
+    - updated_at
+
+Locations (SA / A / T)
+    - id
+    - location_name
+    - active
+    - created_at
+    - updated_at
+
+
+Divisions (SA)
+    - id
+    - division_name
+    - active
+    - created_at
+    - updated_at
+
+Unions (SA)
+    - id
+    - union_number
+    - union_name
+    - division_id
+    - active
+    - created_at
+    - updated_at
+
+Learners (SA / A / T)
+    - id
+    - learner_title
+    - learner_fname
+    - learner_lname
+    - learner_email
+    - learner_mobile
+    - union_id
+    - learner_notes
+    - learner_address1
+    - learner_address2
+    - learner_city_town
+    - learner_county
+    - country_id
+    - learner_employer
+    - learner_occupation
+    - created_at
+    - updated_at
+
+Registers (SA / A / T)
+    - id
+    - learner_id
+    - module_id
+    - register_start_date
+    - register_end_date
+    - register_grade
+    - tutor_id
+    - location_id
+    - register_completed
+    - register_notes
+    - created_at
+    - updated_at
