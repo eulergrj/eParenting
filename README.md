@@ -1,4 +1,4 @@
-# Eparenting Prototype App
+# eParenting Prototype App
 
 ## Tools
 - Laravel ( PHP )
